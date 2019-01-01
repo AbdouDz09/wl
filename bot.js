@@ -5,7 +5,8 @@ client.on("guildMemberAdd", member => {
         if(member.guild.id === "525580458340384768") {  
   const channel = member.guild.channels.find('id', '528564782630961182'); 
 if (!channel) return;
-channel.send(`**<@${member.user.id}> أهلين تشرفنا`)
+channel.send(`**Welcome To :sparkles: :kaaba: `Dream Server`**`)
+channel.send(`<@${member.user.id}>`)
 }});
 
 client.on('ready', () => {

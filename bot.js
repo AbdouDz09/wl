@@ -8,4 +8,8 @@ if (!channel) return;
 channel.send(`**<@${member.user.id}> أهلين تشرفنا`)
 }});
 
+client.on('ready', () => {
+         console.log(`Logged in as ${client.user.tag}!`);
+        });
+
 client.login(process.env.BOT_TOKEN);
